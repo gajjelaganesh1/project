@@ -1,0 +1,46 @@
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  text-align: center;
+  background-color: #dae5f5;
+  margin-bottom: 110px;
+}
+
+.main-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.encryption-info {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.main-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-content ul li {
+  background-color: #f4f4f4;
+  border-color: #001f8b;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-align: left;
+  width: 100%;
+  border: 1px solid #001f8b;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5),
+    -5px -5px 5px rgba(0, 0, 0, 0.2);
+}
+.main-content ul li:hover {
+  border: solid;
+  border-color: #001f8b;
+}

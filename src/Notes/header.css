@@ -1,0 +1,10 @@
+.header {
+  font-size: large;
+}
+.header-top {
+  background-color: #001f8b;
+  color: white;
+  height: 50px;
+  padding: 15px;
+  margin-top: 20px;
+}
